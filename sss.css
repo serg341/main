@@ -1,0 +1,324 @@
+* {
+	font-family: ptsansnarrow, ptsansnarrowbold;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10pt;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+}
+
+body {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+a .main-logo {
+	display: block;
+	text-align: center;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
+nav {
+	display: block;
+
+	background-size: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	background: black;
+	height: 60px;
+}
+
+nav ul.navigation {
+	display: flex;
+	/*width: 100%;
+	margin-right: 250px;
+	margin-left: 250px;*/
+	padding-top: 20px;
+}
+
+.navigation li {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*width: 100%;
+	flex-basis: auto;
+	margin-left: auto;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 0;
+	margin-right: 0;
+	padding-right: px;
+	padding-left: 0px;*/
+}
+
+nav ul.navigation li a:hover {
+	color: #808080;
+}
+
+.navigation ul.login {
+	display: flex;
+	text-align: right;
+	margin-left: 290px;
+	margin-right: 0px;
+}
+
+ul.navigation, ul.login {
+	display: flex;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+
+.login li {
+	display: inline;
+	text-align: right;
+	margin-left: 10px;
+}
+
+
+.navigation a {
+	flex-direction: row;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+	text-decoration: none;
+	padding-top: 0px;	
+}
+
+.login {
+	color: #4d4d4d;
+}
+
+.wrapper {
+	text-align: center;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.wrapper section {
+	display: block;
+}
+
+div.wrapper ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	
+}
+
+div.wrapper li {
+	display: inline;
+	margin-right: 50px;
+	margin-left: 50px;
+	padding: 0;
+}
+
+div.wrapper h3 {
+	text-align: center;
+	color: white;
+	margin: 0;
+	font-size: 20px;
+}
+
+div.wrapper section ul li img {
+
+}
+
+.wrapper p {
+	text-align: justify-all;
+	color: white;
+	line-height: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div.wrapper img {
+	margin: 0px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-info {
+	width: 500px;
+	padding: 0;
+}
+
+.news-gallery {
+	display: flex;
+	width: 1050px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+.news {
+	text-decoration: none;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+	margin: 0;
+	padding-left: 70px;
+	padding-right: 0px;
+}
+
+.news h2 {
+	margin: 0px;
+	padding-top: 30px;
+	padding-left: 0px;
+
+}
+
+.news ul {
+	margin: 0;
+	padding: 0;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+}
+
+.news li {
+	list-style-type: none;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+	margin-top: 10px;
+	margin-left: 0px;
+	padding-right: 50px;
+	padding-left: 0px;
+
+}
+
+.vertical-line {
+	display: inline-flex;
+
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+}
+
+.news p {
+	display: flex;
+	line-height: 30px;
+	margin-top: 20px;
+	padding-right: 0px;
+}
+
+.news button {
+	background: black;
+	width: 150px;
+	height: 50px;
+	text-decoration: none;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	margin-left: 0px;
+
+}
+
+.news a {
+	text-decoration: none;
+	color: white;
+}
+
+.news a:hover {
+	color: #808080;
+}
+
+.gallery {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+	margin: 0px;
+	padding-right: 70px;
+	padding-left: 100px;
+}
+
+.gallery h2 {
+	margin: 0px;
+	padding-top: 30px;
+	padding-left: 0px;
+}
+
+.gallery figure img {
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	width: 300px;
+	height: 180px;
+	margin-top: 50px;
+}
+
+.contacts-reg {
+	display: flex;
+	width: 100%;
+
+	margin-top: 50px;
+}
+
+.contacts {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+}
+
+.contacts ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+.registration {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+	margin-right: 0px;
+	padding: 0 0;
+}
+
+.contacts-reg {
+	display: flex;
+	width: 1050px;
+	margin-top: 50px;
+	margin-left: 250px;
+}
+
+
+@font-face {
+	font-family: "ptsansnarrow";
+	src: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrow.woff2) format("woff2"),
+		 url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrow.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+
+	font-family: "ptsansnarrowbold";
+	src: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrowbold.woff2) format("woff2"),
+		 url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrowbold.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@media (max-width: 74p1x) {
+
+ .container {
+ 	width: 100%;
+ 	margin: 0 auto;
+ }
+
+]
+
+ .navigation {
+ 	width: 100%;
+ }
+}

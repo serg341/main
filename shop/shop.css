@@ -1,0 +1,251 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans Narrow";
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+
+	background-color: beige;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+}
+
+.navigation {
+	background-color: black;
+	color: white;
+}
+
+
+.navigation-list {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation-list a {
+	text-decoration: none;
+	color: white;
+}
+
+.navigation, .logo {
+	list-style: none;
+}
+
+
+.logo {
+	margin: 0;
+	padding: 0;
+}
+
+
+.login {
+	display: flex;
+	list-style: none;
+}
+
+.login a {
+	text-decoration: none;
+	color: white;
+}
+
+.description-list {
+	display: flex;
+	list-style: none;
+	padding: 0;	
+}
+
+.description-list a {
+	text-decoration: none;
+	color: black;
+}
+
+.description-list a:hover {
+	color: #aba9a7;
+}
+
+.filter-1 ul {
+	padding: 0;
+}
+
+.filter-1 li {
+	list-style: none;
+}
+
+.square {
+	padding-left: 2em;
+}
+
+.square_input {
+	position: absolute;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.square_box {
+	position: absolute;
+	margin-left: -2em;
+	width: 20px;
+	height: 20px;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/square.png);
+}
+
+.cross {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/cross.png);
+	background-repeat: no-repeat;
+}
+
+.square_input:checked + .square_box {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/square-cross.png);
+}
+
+.square_input:disabled + .square_box {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/square.png);
+}
+
+.content {
+	display: flex;
+}
+
+.filters {
+	display: block;
+}
+
+.filter-2-list {
+	padding: 0;
+}
+
+.filter-2-list li {
+	list-style: none;
+}
+
+.radio {
+	padding-left: 2em;
+}
+
+.radio_input {
+	position: absolute;
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+.radio_1 {
+	position: absolute;
+	margin-left: -2em;
+	height: 20px;
+	width: 20px;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/radio.png);
+}
+
+.radio_input:checked + .radio_1 {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/radio-comp.png);
+}
+
+.radio_input:disabled + .radio_1 {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/radio.png);
+}
+
+.button {
+	font: inherit;
+	text-transform: uppercase;
+	width: 112px;
+	height: 43px;
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+.items {
+	display: inline-grid;
+	grid-auto-flow: column;
+	column-gap: 20px;
+}
+
+.item {
+	background-color: white;
+	box-shadow: 0 0 7px;
+	text-transform: none;
+}
+
+.select-page {
+	display: bottom;
+}
+
+.footer {	
+	color: #ffffff;
+	background-color: #212121;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/footer.png);
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.footer-content {
+	display: inline-grid;
+	grid-auto-flow: column;
+	column-gap: 90px;
+
+}
+
+.footer-contacts {
+	color: white;
+	text-decoration: underline;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+	text-decoration: none;
+}
+
+.socials {
+	text-align: center;
+}
+
+.socials ul {
+	list-style: none;
+}
+
+.social-item {
+	color: white;
+}
+
+.copyright {
+	text-align: center;
+	color: white;
+}
+
+.copyright-button {
+	color: white;
+	background-color: black;
+}
+
+.copyright .copyright-button:hover,
+.copyright .copyright-button:focus {
+	color: black;
+	background-color: white;
+}
+
+
+.social-item {
+	display: inline;
+	justify-content: center;
+	background-color: black;
+}
+
+
+
+
+@font-face {
+
+	font-family: "ptsansnarrow";
+	src: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrow.woff2) format("woff2"),
+		 url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrow.woff) format("woff");
+
+	font-family: "ptsansnarrowbold";
+	src: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrowbold.woff2) format("woff2"),
+		 url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrowbold.woff) format("woff");
+}

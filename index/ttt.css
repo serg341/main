@@ -1,0 +1,238 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans Narrow";
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+
+	background-color: black;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navigation {
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+
+	background-color: #000000;
+}
+
+.navigation-list, .login {
+	list-style: none;
+}
+
+.navigation-list a, .login a {
+	color: white;
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus,
+.login a:hover, 
+.login a:focus
+{
+	color: lightgrey;
+	background-color: gray;
+}
+
+.wrapper-list {
+	list-style: none;
+}
+
+.wrapper-item {
+	text-align: center;
+}
+
+.wrapper-item h3 {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.main-info {
+	color: black;
+
+	background-color: white;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.main-info h2 {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.news-item {
+	list-style: none;
+}
+ 
+time {
+	text-transform: none;
+}
+
+.content {
+	background-color: #cccccc;
+	border: 7px solid white;
+}
+
+.button {
+	font: inherit;
+	text-align: center;
+	color: white;
+	background-color: black;
+	vertical-align: middle;
+	text-transform: uppercase;
+	border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+	background-color: #bd0d0d;
+}
+
+.contacts-reg {
+	color: black;
+
+	background-color: white;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.contacts-reg h2 {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.registration-item input {
+	font: inherit;
+
+	background-color: transparent;
+	border: 4px solid #000000;
+}
+
+.registration-item input:focus {
+	border-color: #2710eb;
+}
+
+.footer {
+	color: #ffffff;
+	background-color: #212121;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/footer.png);
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.footer-contacts {
+	color: white;
+	text-decoration: underline;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+	text-decoration: none;
+}
+
+.socials {
+	text-align: center;
+}
+
+.socials ul {
+	list-style: none;
+}
+
+.social-item {
+	color: white;
+}
+
+.copyright {
+	text-align: center;
+	color: white;
+}
+
+.copyright-button {
+	color: white;
+	background-color: black;
+}
+
+.copyright .copyright-button:hover,
+.copyright .copyright-button:focus {
+	color: black;
+	background-color: white;
+}
+
+
+.social-item {
+	display: inline;
+	justify-content: center;
+	background-color: black;
+}
+
+.instagram {
+	vertical-align: middle;	
+
+}
+
+
+
+.modal {
+	color: black;
+	background-color: white;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.modal h2 {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"] {
+	font: inherit;
+	color: black;
+	text-transform: uppercase;
+
+	background-color: transparent;
+	border: 3px solid black;
+}
+
+.form-login input:focus {
+	border-color: red;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+	color: grey;
+}
+
+.forgot-password {
+	color: black;
+	text-decoration: underline;
+}
+
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: none;
+}
+
+@font-face {
+
+	font-family: "ptsansnarrow";
+	src: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrow.woff2) format("woff2"),
+		 url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrow.woff) format("woff");
+
+	font-family: "ptsansnarrowbold";
+	src: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrowbold.woff2) format("woff2"),
+		 url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrowbold.woff) format("woff");
+}
