@@ -1,0 +1,511 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans Narrow";
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+
+	background-color: beige;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/Layer-10-copy.png);
+}
+
+.navigation {
+	background-color: black;
+	color: white;
+
+	height: 73px;
+}
+
+.nav-wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.div-nav-all {
+	display: flex;
+}
+
+.navigation-list {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 73px;
+	gap: 40px;
+}
+
+.navigation-list a {
+	display: flex;
+	align-items: center;
+
+	height: 73px;
+
+	text-decoration: none;
+	color: white;
+}
+
+/*.navigation-list a:hover {
+	display: block;
+	position: absolute;
+	height: 4px;
+	background-color: white;
+	content: '';
+	transition: 0.5s;
+}*/
+
+.navigation, .logo {
+	list-style: none;
+}
+
+
+.logo {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.div-login {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.login {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	align-items: center;
+	gap: 15px;
+}
+
+.login a {
+	text-decoration: none;
+	color: white;
+}
+
+.main-wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+
+.div-nav-list:nth-child(1) {
+	flex-grow: 1;
+}
+
+.div-login:nth-child(2) {
+	flex-grow: 1;
+}
+
+.description-page {
+	margin-top: 62px;
+}
+
+.description-page h1 {
+	margin: 0;
+}
+
+.description-list {
+	display: flex;
+
+	margin-top: 32px;
+	margin-bottom: 60px;
+	padding: 0;	
+
+	list-style: none;
+	gap: 15px;
+}
+
+.description-list a {
+	text-decoration: none;
+	color: black;
+}
+
+.description-list a:hover {
+	color: #aba9a7;
+}
+
+.filter-1 h2 {
+	margin-top: 0;
+	margin-bottom: 35px;
+}
+
+.filter-1 ul {
+	display: flex;
+	flex-direction: column;
+
+	padding: 0;
+	margin: 0;
+	gap: 17px;
+}
+
+.filter-1 li {
+	list-style: none;
+}
+
+.square {
+	padding-left: 2em;
+}
+
+.square_input {
+	position: absolute;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.square_box {
+	position: absolute;
+	margin-left: -2em;
+	width: 20px;
+	height: 20px;
+	background-image: url('../C:/Users/barbishop/shop/square.png');
+}
+
+.cross {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/cross.png);
+	background-repeat: no-repeat;
+}
+
+.square_input:checked + .square_box {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/square-cross.png);
+}
+
+.square_input:disabled + .square_box {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/square.png);
+}
+
+.content {
+	display: flex;
+}
+
+.filters {
+	display: block;
+}
+
+.filter-1,
+.filter-2 {
+	max-width: 165px;
+}
+
+.filter-2 h2 {
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.filter-2-list {
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+
+	padding: 0;
+	margin: 0;
+}
+
+.filter-2-list li {
+	list-style: none;
+}
+
+.radio {
+	padding-left: 2em;
+}
+
+.radio_input {
+	position: absolute;
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+.radio_1 {
+	position: absolute;
+	margin-left: -2em;
+	height: 20px;
+	width: 20px;
+	background-image: url(../shop/sjop_img/radio.png);
+}
+
+.radio_input:checked + .radio_1 {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/radio-comp.png);
+}
+
+.radio_input:disabled + .radio_1 {
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/shop/radio.png);
+}
+
+.button {
+	margin-top: 50px;
+	padding: 0;
+
+	font: inherit;
+	text-transform: uppercase;
+	width: 112px;
+	height: 43px;
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+.items {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 700px;
+    margin-left: 75px;
+}
+
+.items img {
+	width: 100%;
+}
+
+.item {
+	background-color: white;
+	box-shadow: 0 0 7px;
+	text-transform: none;
+}
+
+.item-text {
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+	margin-left: 15px;
+
+	max-width: 155px;
+line-height: 21px;
+}
+
+.price-buy {
+	display: flex;
+	justify-content: center;
+}
+
+.price {
+
+    margin: 0;
+    font: inherit;
+    background-color: #e5e5e5;
+    width: 109px;
+    height: 43px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buy {
+
+    padding: 0;
+    background-color: black;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    width: 79px;
+
+}
+
+/*.select-page {
+	display: bottom;
+}*/
+
+.select-page {
+    display: flex;
+    padding-left: 240px;
+    margin-top: 45px;
+     margin-bottom: 50px;
+
+    gap: 7px;
+}
+
+.select-page-wrapper {
+
+	max-width: 700px;
+	margin: 0;
+}
+
+.select-page-number {
+	display: flex;
+	padding: 0;
+
+	align-items: center;
+	justify-content: center;
+	gap: 7px;
+
+    background-color: black;
+    color: white;
+    height: 42px;
+    font: inherit;
+    width: 42px;
+    border: none;
+
+}
+
+.footer {	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin: 0;
+
+	color: #ffffff;
+	background-color: #212121;
+	background-image: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/footer.png);
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.wrapper-footer {
+	display: flex;
+	max-width: 900px;
+	width: 100%;
+	align-items: center;
+}
+
+
+.div-footer-contacts p 
+{    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+.div-footer-contacts:nth-child(1) {
+	flex-grow: 1;
+}
+
+.socials:nth-child(2) {
+	flex-grow: 1;
+}
+
+.div-copyright:nth-child(3) {
+	flex-grow: 4;
+}
+
+.footer-contacts {
+	color: white;
+	text-decoration: underline;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+	text-decoration: none;
+}
+
+.socials {
+	text-align: center;
+}
+
+.socials ul {
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	gap: 6px;
+
+	list-style: none;
+}
+
+.socials p {
+	margin-top: 0;
+	margin-bottom: 22px;
+}
+
+.social-item {
+	color: white;
+}
+
+.div-copyright {
+	display: flex;
+    justify-content: end;
+}
+
+/*.copyright {
+	flex-direction: column;
+
+	margin: 0;
+
+	text-align: center;
+	color: white;
+	text-align: end;
+}*/
+
+.copyright {
+    
+    flex-direction: column;
+    margin: 0;
+    
+    color: white;
+    text-align: end;
+    
+    text-align: center;
+}
+
+/*.copyright-button {
+	color: white;
+	background-color: black;
+}*/
+
+.copyright-button {
+    width: fit-content;
+    color: white;
+    background-color: black;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    width: 140px;
+    justify-content: center;
+    margin-top: 11px;
+    text-decoration: none;
+}
+
+.copyright .copyright-button:hover,
+.copyright .copyright-button:focus {
+	color: black;
+	background-color: white;
+}
+
+
+.social-item {
+	display: flex;
+	align-items: center;
+	/*display: inline;
+	text-align: center;*/
+	background-color: black;
+}
+
+.vk,
+.instagram,
+.facebook {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 43px;
+	width: 43px;
+}
+
+
+
+
+
+
+@font-face {
+
+	font-family: "ptsansnarrow";
+	src: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrow.woff2) format("woff2"),
+		 url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrow.woff) format("woff");
+
+	font-family: "ptsansnarrowbold";
+	src: url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrowbold.woff2) format("woff2"),
+		 url(file:///C:/Users/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/Documents/barbishop/ptsansnarrowbold.woff) format("woff");
+}
